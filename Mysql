@@ -1,3 +1,5 @@
 These are Steps to Run and Setup Mysql Container on EC2
 
 1. Pull Docker Image from Online DOcker Images Repo
+2. Run MySql Container and Set Username and Password 
+   docker run  --name ms -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password mysql 
