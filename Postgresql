@@ -1,1 +1,7 @@
 
+Spinning Postgresql on Docker in Ec2 Instance
+1. sudo docker run -p 5432:5432 --name pgsami postgres
+
+Here the name tagged is pgsami and the port 5432 and 5432 are the outer and inner port in Docker.
+
+
