@@ -7,3 +7,12 @@ Run container from image and giving some name
 Listing all Container Present on Device 
 4. Docker Stop
 Stopping Docker on Specific Time
+5. docker start <container-name>
+Starting Stopped Container 
+6. docker rm <name>
+removing Container 
+7. container logs <name> 
+View ALl Container logs and Data 
+8. docker exec -it <conatiner-name>
+Exec Commands inside of Container 
+
