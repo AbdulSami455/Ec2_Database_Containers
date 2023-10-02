@@ -1,1 +1,10 @@
+Run Docker Container by Pulling Image from Remote and Then Setting up Container
+1. sudo docker run --name redisdb -p 6379:6379 redis
+
+Bashing to Command Line of Container to work with RedisDb
+2. sudo docker exec -it redisdb redis-cli
+
+
+ 
+
 
