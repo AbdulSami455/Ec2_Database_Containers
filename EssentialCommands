@@ -1,2 +1,9 @@
 Essential Commands Required to Learn Spinning Database
-1. 
+1. Docker Pull <image> 
+This Above command is about pulling database images to run database.
+2. docker run -p --name 
+Run container from image and giving some name 
+3. docker ps 
+Listing all Container Present on Device 
+4. Docker Stop
+Stopping Docker on Specific Time
