@@ -4,4 +4,7 @@ Spinning Postgresql on Docker in Ec2 Instance
 
 Here the name tagged is pgsami and the port 5432 and 5432 are the outer and inner port in Docker.
 
+2. sudo docker run -p 5555:80 --name pgadmin2  -e PGADMIN_DEFAULT_EMAIL="as1987137@gmail.com" -e PGADMIN_DEFAULT_PASSWORD="PASSWORD" dpage/pgadmin4
+
+Starting PgAdmin with setting Default Email and Password login
 
