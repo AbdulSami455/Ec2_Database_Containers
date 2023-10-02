@@ -5,6 +5,7 @@ Bashing to Command Line of Container to work with RedisDb
 2. sudo docker exec -it redisdb redis-cli
 
 
- 
+ Setting Key value Pair in Redis
+3. set id 3 
 
 
