@@ -7,4 +7,21 @@ Docker Compose is Installed to Create MariaDb container in Docker
 Allow Access to Docker
 3. sudo chmod +x /usr/local/bin/docker-compose
 
+Creating Docker Compose File to Run Docker Containers.
+
+4. 
+( version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb
+    container_name: mariadb-container
+    environment:
+      MYSQL_ROOT_PASSWORD: <your_password>
+    ports:
+      - "3306:3306"
+    volumes:
+      - /path/to/mariadb/data:/var/lib/mysql ) 
+
+
 
