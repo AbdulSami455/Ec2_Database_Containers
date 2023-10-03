@@ -1,13 +1,13 @@
-Pulling Docker Images from Docker 
+#Pulling Docker Images from Docker 
 1. Docker Pull image
 
-Docker Compose is Installed to Create MariaDb container in Docker
+#Docker Compose is Installed to Create MariaDb container in Docker
 2. sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-Allow Access to Docker
+#Allow Access to Docker
 3. sudo chmod +x /usr/local/bin/docker-compose
 
-Creating Docker Compose File to Run Docker Containers.
+#Creating Docker Compose File to Run Docker Containers.
 
 4. 
 ( version: '3.8'
@@ -24,7 +24,10 @@ services:
       - /path/to/mariadb/data:/var/lib/mysql ) 
 
 
-Run Mariadb container using Compose File
+#Run Mariadb container using Compose File
 
 5. docker-compose up -d
 
+#Manage Containers 
+6. docker-compose stop
+docker-compose start
