@@ -24,4 +24,7 @@ services:
       - /path/to/mariadb/data:/var/lib/mysql ) 
 
 
+Run Mariadb container using Compose File
+
+5. docker-compose up -d
 
