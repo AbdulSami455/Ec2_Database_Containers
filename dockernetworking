@@ -6,4 +6,10 @@ Here all Docker Networking Concepts and Terminals
  2. docker network ls
 
  Inspect Docker Networking
- 
+ 3. docker network inspect my_network
+
+ Connecting and Disconnecting 
+4. docker network connect my_network container_name
+  docker network disconnect my_network container_name
+
+
