@@ -12,4 +12,14 @@ Here all Docker Networking Concepts and Terminals
 4. docker network connect my_network container_name
   docker network disconnect my_network container_name
 
+Running Networking 
+5. docker run --network my_network -d my_image
+
+
+#Here are the All Other Concepts 
+ 1. Bridge Network
+ 2. Host Network
+ 3. Port Mapping
+ 4. Service Discovery
+
 
