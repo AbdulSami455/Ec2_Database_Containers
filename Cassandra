@@ -14,6 +14,16 @@ Stopping and Removing the Cassandra Container:
 5. docker stop cassandra-container
 docker rm cassandra-container
 
+Create Keyspaces 
+6. CREATE KEYSPACE IF NOT EXISTS my_keyspace
+WITH replication = {
+   'class': 'SimpleStrategy',
+   'replication_factor': 1
+};
+
+List Keyspaces:
+7. DESCRIBE KEYSPACES;
+
 
 
 
