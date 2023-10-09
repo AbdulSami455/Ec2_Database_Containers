@@ -4,5 +4,8 @@ First Pulling Docker Image
 Create Docker Container 
 2. docker run --name cassandra-container -d cassandra:latest
 
+Verify Container is Running or not
+3. docker ps
 
+Accessing Cassandra 
 
