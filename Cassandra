@@ -24,6 +24,10 @@ WITH replication = {
 List Keyspaces:
 7. DESCRIBE KEYSPACES;
 
+Use the Keyspace:
+8. USE my_keyspace;
+
+
 
 
 
