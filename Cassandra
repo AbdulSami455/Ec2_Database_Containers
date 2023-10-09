@@ -1,1 +1,8 @@
+First Pulling Docker Image
+1. docker pull cassandra:latest
+
+Create Docker Container 
+2. docker run --name cassandra-container -d cassandra:latest
+
+
 
