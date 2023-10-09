@@ -20,7 +20,6 @@ WITH replication = {
    'class': 'SimpleStrategy',
    'replication_factor': 1
 };
-
 List Keyspaces:
 7. DESCRIBE KEYSPACES;
 
