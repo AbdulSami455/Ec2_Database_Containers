@@ -8,4 +8,12 @@ Verify Container is Running or not
 3. docker ps
 
 Accessing Cassandra 
+4. docker exec -it cassandra-container cqlsh
+
+Stopping and Removing the Cassandra Container:
+5. docker stop cassandra-container
+docker rm cassandra-container
+
+
+
 
